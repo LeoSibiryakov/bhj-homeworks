@@ -36,7 +36,6 @@ function success() {
 }
 
 showSuccess.onclick = success; // по клику меняется первое окно на второе
-
 function success2() {
     modalSuccess.classList.remove('modal_active'); // удаляется второе активное окно
 } 
